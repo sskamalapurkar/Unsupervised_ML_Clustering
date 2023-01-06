@@ -46,4 +46,14 @@ In this project, your task is to identify major customer segments on a transnati
 |**CustomerID:**|Customer number. A 5-digit integral number uniquely assigned to each customer.|
 |**Country:**|Country name. The name of the country where each customer resides.|
 
-**Approach Taken**
+**Conclusions**
+-
+* Throughout the exercise, we went through various steps to perform customer segmentation. We started with importing data and important libraries. Then, did rigorous data wrangling.
+
+* We have performed RFM Analysis on the data, where we clustered customers based on Recency, Monetary and Frequency aspect. We used Elbow method, Silhouette score method to find appropriate number of clusters. We discovered 4 clusters based on RFM data.
+
+* Further, did cohort analysis to understand how retention and acquisition rate, average amount spend changes over the time period.
+
+* However, there can be more modifications on this analysis. One may choose to cluster into more no. depending on company objectives and preferences. The labelled feature after clustering can be fed into classification supervised machine learning algorithms that could predict the classes for new set of observations. The clustering can also be performed on new set of features such as type of products each customer prefer to buy often, finding out customer lifetime value (clv) and much more.
+
+# **THANK YOU !**
